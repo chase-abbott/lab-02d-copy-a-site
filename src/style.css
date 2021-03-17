@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    border: black 1px solid;
+    display: grid;
+    width: 100%;
+    height: 500px;
+    background-color: cyan;
+    margin-top: 50px;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+nav {
+    border: solid 1px black;
+    height: 110px;
+    width: 100%;
+    background-color: green;
+ 
+} 
+
+/* .top-nav {
+    border: solid 1px black;
+    display: grid;
+    height: 30px;
+    grid-template-columns: repeat(12, 30px);
+    background-color: green;
+} */
+
+/*.network {
+    display: flex;
+    -ms-grid-column-span: 1 / 2;
+    height: 30px;
+    font-weight: bold;
+    font-family: "proxima nova";
+    text-transform: uppercase;
+    align-self: center;
+    
+} */
+
+
+/*.bottom-nav {
+    border: solid 1px black;
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(9, 30px);
+    background-color: green;
+} */
